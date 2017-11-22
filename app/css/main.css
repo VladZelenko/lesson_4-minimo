@@ -7429,7 +7429,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
           box-shadow: none; }
 
 .hero .nav-list a {
-  padding-left: 60px;
   color: #626262; }
 
 .hero .parallax-container {
@@ -7437,3 +7436,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .hero .material-icons {
   color: #626262; }
+
+.hero .intro {
+  width: 100%;
+  min-height: 510px;
+  background: url("../../img/hero-img.png") center center no-repeat;
+  background-size: cover; }
+
+.news-subscription {
+  width: 100%;
+  min-height: 290px;
+  background-color: #f0f0f0;
+  padding: 75px 0;
+  text-align: center; }
+  .news-subscription .subscription-form {
+    max-width: 400px;
+    margin: 0 auto; }
