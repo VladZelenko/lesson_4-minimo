@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+//===================================fontawesome================================//
+@font-face {
+	font-family: "font-awesome";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../../libs/font-awesome/fonts/fontawesome-webfont.svg"),
+	url("../../libs/font-awesome/fonts/fontawesome-webfont.woff2"),
+	url("../../libs/font-awesome/fonts/fontawesome-webfont.eot"),
+	url("../../libs/font-awesome/fonts/FontAwesome.otf"),
+	url("../../libs/font-awesome/fonts/fontawesome-webfont.ttf"),
+	url("../../libs/font-awesome/fonts/fontawesome-webfont.woff");
+}
