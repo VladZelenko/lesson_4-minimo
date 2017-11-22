@@ -7432,8 +7432,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding-left: 60px;
   color: #626262; }
 
-.hero .parallax {
-  width: 100%;
-  min-height: 590px;
-  background: url("../../img/hero-img.png") center center no-repeat;
-  background-size: cover; }
+.hero .parallax-container {
+  height: 510px; }
+
+.hero .material-icons {
+  color: #626262; }

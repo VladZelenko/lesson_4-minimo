@@ -4,16 +4,12 @@
 		border: none;
 		box-shadow: none;
 	}
-	.nav-list {
-		a {
-			padding-left: 60px;
-			color: $primary_font_color;
-		}
+	.nav-list a{
+		padding-left: 60px;
+		color: $primary_font_color;
 	}
-	.parallax {
-		width: 100%;
-		min-height: 590px;
-		background: url("../../img/hero-img.png") center center no-repeat;
-		background-size: cover;
+	.parallax-container {
+		height: 510px;
 	}
+	.material-icons {color: $primary_font_color;}
 }
