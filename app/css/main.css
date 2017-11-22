@@ -7452,3 +7452,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .news-subscription .subscription-form {
     max-width: 400px;
     margin: 0 auto; }
+
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 40px 0 45px 0;
+  background-color: #f0f0f0; }
+  .footer .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer .footer-nav, .footer .social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
