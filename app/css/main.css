@@ -7421,3 +7421,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
+
+.hero nav {
+  background-color: #ffffff;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.hero .nav-list a {
+  padding-left: 60px;
+  color: #626262; }
+
+.hero .parallax {
+  width: 100%;
+  min-height: 590px;
+  background: url("../../img/hero-img.png") center center no-repeat;
+  background-size: cover; }
