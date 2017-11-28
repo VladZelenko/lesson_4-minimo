@@ -7450,7 +7450,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding: 70px 0; }
 
 .posts {
-  padding: 0 60px 120px 0; }
+  padding: 0 60px 120px 60px; }
 
 .posts .category, .posts a, .posts .tape-post a, .tape-post .posts a, .tape-post .category, .tape-post .posts a, .posts .tape-post a, .tape-post a {
   color: #b4ad9e;
@@ -7484,9 +7484,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     color: #333333;
     font: 400 30px "Playfair Display", sans-serif;
     letter-spacing: 0.75px; }
-  .news-subscription .subscription-form {
-    max-width: 400px;
-    margin: 0 auto; }
 
 .tape-post {
   padding: 90px 0;
@@ -7518,6 +7515,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+  .footer .footer-nav li {
+    margin-right: 15px; }
+  .footer .social li {
+    margin-right: 20px; }
+  .footer .fa {
+    color: #626262;
+    font-size: 17px; }
+  .footer a {
+    color: #000000;
+    font: 400 14px "Playfair Display", sans-serif; }
 
 #loadMore {
   margin: 165px auto;
@@ -7528,3 +7535,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   text-align: center;
   border: 1px solid #626262;
   cursor: pointer; }
+
+.news-subscription .subscription-form {
+  max-width: 400px;
+  margin: 0 auto; }

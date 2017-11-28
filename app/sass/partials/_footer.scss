@@ -9,4 +9,14 @@
 		justify-content: space-between;
 	}
 	.footer-nav, .social {display: flex;}
+	.footer-nav li {margin-right: 15px;}
+	.social li {margin-right: 20px;}
+	.fa {
+		color: $primary_font_color;
+		font-size: 17px;
+	}
+	a {
+		color: $footer_color;
+		font: 400 14px $secondary_font;
+	}
 }

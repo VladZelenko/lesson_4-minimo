@@ -7,13 +7,10 @@
 		box-shadow: none;
 		text-transform: uppercase;
 	}
-	.nav-list {
-		a {color: $primary_font_color;}
-	}
+	.nav-list a {color: $primary_font_color;}
 	.parallax-container {height: 510px;}
 	.material-icons {color: $primary_font_color;}
 	.intro {
-		// margin-top: 30px;
 		width: 100%;
 		min-height: 80vh;
 		background: url("../../img/hero-img.png") center center no-repeat;
