@@ -7423,10 +7423,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 .hero nav {
+  margin-top: 45px;
+  min-height: 20vh;
   background-color: #ffffff;
   border: none;
   -webkit-box-shadow: none;
-          box-shadow: none; }
+          box-shadow: none;
+  text-transform: uppercase; }
 
 .hero .nav-list a {
   color: #626262; }
@@ -7439,7 +7442,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .hero .intro {
   width: 100%;
-  min-height: 510px;
+  min-height: 80vh;
   background: url("../../img/hero-img.png") center center no-repeat;
   background-size: cover; }
 
@@ -7452,6 +7455,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .news-subscription .subscription-form {
     max-width: 400px;
     margin: 0 auto; }
+
+.tape-post {
+  font-size: 14px; }
+  .tape-post h2, .tape-post h3 {
+    font-size: 16px; }
+
+#myList div {
+  display: none; }
 
 .footer {
   width: 100%;

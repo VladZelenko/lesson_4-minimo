@@ -1,20 +1,21 @@
 .hero {
 	nav {
+		margin-top: 45px;
+		min-height: 20vh;
 		background-color: #ffffff;
 		border: none;
 		box-shadow: none;
+		text-transform: uppercase;
 	}
 	.nav-list {
-		a {
-			// padding: 0 30px;
-			color: $primary_font_color;
-		}
+		a {color: $primary_font_color;}
 	}
 	.parallax-container {height: 510px;}
 	.material-icons {color: $primary_font_color;}
 	.intro {
+		// margin-top: 30px;
 		width: 100%;
-		min-height: 510px;
+		min-height: 80vh;
 		background: url("../../img/hero-img.png") center center no-repeat;
 		background-size: cover;
 	}
