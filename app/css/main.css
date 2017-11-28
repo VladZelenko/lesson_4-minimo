@@ -7480,6 +7480,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #f0f0f0;
   padding: 75px 0;
   text-align: center; }
+  .news-subscription .title {
+    color: #333333;
+    font: 400 30px "Playfair Display", sans-serif;
+    letter-spacing: 0.75px; }
   .news-subscription .subscription-form {
     max-width: 400px;
     margin: 0 auto; }
