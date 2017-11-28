@@ -7447,20 +7447,32 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-size: cover; }
 
 .previews {
-  padding: 70px 80px; }
-  .previews .category, .previews a {
-    color: #b4ad9e;
-    font: 300 14px Ubuntu;
-    text-transform: uppercase; }
-  .previews .title {
-    color: #626262;
-    font: 400 30px "Playfair Display", sans-serif; }
-  .previews p {
-    color: #626262;
-    font: 400 14px/24px "Playfair Display", sans-serif; }
-  .previews a {
-    display: block;
-    margin-top: 50px; }
+  padding: 70px 0; }
+
+.posts {
+  padding: 0 60px 120px 0; }
+
+.posts .category, .posts a {
+  color: #b4ad9e;
+  font: 300 14px Ubuntu;
+  text-transform: uppercase; }
+
+.posts .title {
+  color: #626262;
+  font: 400 28px "Playfair Display", sans-serif;
+  margin: 0;
+  padding-bottom: 35px; }
+
+.posts p {
+  color: #626262;
+  font: 400 14px/24px "Playfair Display", sans-serif; }
+
+.posts a {
+  display: block;
+  margin-top: 50px; }
+
+.posts .post {
+  padding-top: 85px; }
 
 .news-subscription {
   width: 100%;
