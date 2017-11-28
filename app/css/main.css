@@ -7452,26 +7452,26 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .posts {
   padding: 0 60px 120px 0; }
 
-.posts .category, .posts a {
+.posts .category, .posts a, .posts .tape-post a, .tape-post .posts a, .tape-post .category, .tape-post .posts a, .posts .tape-post a, .tape-post a {
   color: #b4ad9e;
   font: 300 14px Ubuntu;
   text-transform: uppercase; }
 
-.posts .title {
+.posts .title, .tape-post .title {
   color: #626262;
   font: 400 28px "Playfair Display", sans-serif;
   margin: 0;
   padding-bottom: 35px; }
 
-.posts p {
+.posts p, .tape-post p {
   color: #626262;
   font: 400 14px/24px "Playfair Display", sans-serif; }
 
-.posts a {
+.posts a, .tape-post a {
   display: block;
   margin-top: 50px; }
 
-.posts .post {
+.posts .post, .tape-post .post {
   padding-top: 85px; }
 
 .news-subscription {
@@ -7489,12 +7489,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin: 0 auto; }
 
 .tape-post {
+  padding: 90px 0;
   font-size: 14px; }
   .tape-post h2, .tape-post h3 {
     font-size: 16px; }
-
-#myList div {
-  display: none; }
 
 .footer {
   width: 100%;
@@ -7520,3 +7518,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+
+#loadMore {
+  margin: 165px auto;
+  display: block;
+  width: 165px;
+  color: #626262;
+  font: 400 20px/60px "Playfair Display", sans-serif;
+  text-align: center;
+  border: 1px solid #626262;
+  cursor: pointer; }
