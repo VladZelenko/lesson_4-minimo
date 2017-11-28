@@ -7446,6 +7446,22 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background: url("../../img/hero-img.png") center center no-repeat;
   background-size: cover; }
 
+.previews {
+  padding: 70px 80px; }
+  .previews .category, .previews a {
+    color: #b4ad9e;
+    font: 300 14px Ubuntu;
+    text-transform: uppercase; }
+  .previews .title {
+    color: #626262;
+    font: 400 30px "Playfair Display", sans-serif; }
+  .previews p {
+    color: #626262;
+    font: 400 14px/24px "Playfair Display", sans-serif; }
+  .previews a {
+    display: block;
+    margin-top: 50px; }
+
 .news-subscription {
   width: 100%;
   min-height: 290px;

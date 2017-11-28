@@ -1,0 +1,21 @@
+.previews {
+	padding: 70px 80px;
+	.category {
+		color: #b4ad9e;
+		font: 300 14px Ubuntu;
+		text-transform: uppercase;
+	}
+	.title {
+		color: $primary_font_color;
+		font: 400 30px $secondary_font;
+	}
+	p {
+		color: $primary_font_color;
+		font: 400 14px/24px $secondary_font;
+	}
+	a {
+		display: block;
+		margin-top: 50px;
+		@extend .category;
+	}
+}
