@@ -7463,6 +7463,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 0;
   padding-bottom: 35px; }
 
+.posts article p, .tape-post article p {
+  max-width: 415px; }
+
 .posts p, .tape-post p {
   color: #626262;
   font: 400 14px/24px "Playfair Display", sans-serif; }
@@ -7486,10 +7489,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     letter-spacing: 0.75px; }
 
 .tape-post {
-  padding: 90px 0;
+  padding: 0 0 90px 0;
   font-size: 14px; }
-  .tape-post h2, .tape-post h3 {
-    font-size: 16px; }
+  .tape-post article {
+    margin-top: 90px; }
+    .tape-post article p {
+      text-align: center; }
 
 .footer {
   width: 100%;
@@ -7539,3 +7544,27 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .news-subscription .subscription-form {
   max-width: 400px;
   margin: 0 auto; }
+
+@media (max-width: 992px) {
+  body {
+    text-align: center; }
+  .posts .title, .tape-post .title {
+    font-size: 18px; } }
+
+@media (max-width: 600px) {
+  .posts .title, .tape-post .title {
+    font-size: 25px; }
+  .posts article p, .tape-post article p {
+    margin: 0 auto; }
+  .footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer .social {
+    margin-top: 20px; } }

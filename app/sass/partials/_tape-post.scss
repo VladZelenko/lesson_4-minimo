@@ -1,8 +1,9 @@
 .tape-post {
-	padding: 90px 0;
+	padding: 0 0 90px 0;
 	font-size: 14px;
-	h2, h3 {
-		font-size: 16px;
+	article {
+		margin-top: 90px;
+		p {text-align: center;}
 	}
 }
 	// #myList div{ display:none;}
